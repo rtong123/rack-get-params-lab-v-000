@@ -34,4 +34,3 @@ class Application
         "#{item}"
       end
     end
-  end
