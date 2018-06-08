@@ -40,7 +40,7 @@ class Application
     else
       return @@cart.collect do |item|
          "#{item}\n"
-      end.join(",")
+      end.join()
     end
   end
 
