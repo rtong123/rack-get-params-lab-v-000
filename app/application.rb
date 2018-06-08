@@ -32,7 +32,7 @@ class Application
       else
         return @@cart.collect do|item|
           "#{item}"
-        end
+        end.join()
       end
     end
   end
