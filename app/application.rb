@@ -49,7 +49,7 @@ class Application
       @@cart << item
       return "Added #{item}"
     else
-      return "Not on the list"
+      return "We don't have that item"
     end
   end
 end
